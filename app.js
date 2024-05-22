@@ -20,4 +20,5 @@ function generarNombresDominio() {
   return nombresDominio;
 }
 const dominio = generarNombresDominio();
-for (let w = 0; w < dominio.length; w++) console.log(dominio[w]);
+for (let w = 0; w < dominio.length; w++)
+console.log(dominio[w]);
